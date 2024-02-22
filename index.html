@@ -31,8 +31,8 @@
               </li>
             </ul>
             <div>
-              <i class="bi bi-bell"></i>
-              <img src="./assets/avatar-1.jpg" alt="volto uomo" class="rounded-circle" width="20%" />
+              <i class="bi bi-bell p-3 bg-secondary-subtle fw-bolder rounded-circle"></i>
+              <img src="./assets/avatar-1.jpg" alt="volto uomo" class="rounded-circle" width="55px" />
             </div>
           </div>
         </div>
@@ -42,57 +42,324 @@
     <main>
       <section class="container-fluid container1 bg-viola ps-5 pe-5">
         <div class="row">
-          <div class="col-6 p-5">
-            <h1 class=".text-white">Welcome Web Students!</h1>
-            <p>
+          <div class="col-sm-12 col-md-6 col-lg-6 p-5">
+            <h1 class="text-white display-6 fw-bold">Welcome Web Students!</h1>
+            <p class="text-white-50 fs-4">
               Hand-picked Instruction and expertly crafted courses, designed for the modern students and entrepreneur.
             </p>
             <button type="button" class="bottone1 btn btn-lg">Browse Courses</button>
             <button type="button" class="bottone2 btn btn-lg">Are You Instructor?</button>
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <img src="./assets/hero-img.png" alt="uomo" />
           </div>
         </div>
       </section>
-      <section class="container-fluid container2">
+      <section class="container-fluid container2 pt-4 shadow p-3 mb-5 bg-body-tertiary rounded">
         <div class="row justify-content-center">
-          <div class="col-3">
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <div class="d-flex align-items-center">
-              <div class="col-2">
-                <i class="bi bi-camera-video"></i>
+              <div class="col-sm-1 col-md-2 col-lg-2">
+                <div
+                  class="d-flex justify-content-center bg-rosa-special rounded-circle align-items-center p-2 text-danger"
+                >
+                  <i class="bi bi-camera-video"></i>
+                </div>
               </div>
-              <div class="col-10">
-                <p>30,000 online courses</p>
+              <div class="col-sm-10 col-md-10 col-lg-10">
+                <p class="fw-bolder">30,000 online courses</p>
                 <p>Enjoy a variety of fresh topics</p>
               </div>
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <div class="d-flex align-items-center">
-              <div class="col-2">
-                <i class="bi bi-people"></i>
+              <div class="col-sm-1 col-md-2 col-lg-2">
+                <div
+                  class="d-flex justify-content-center bg-rosa-special rounded-circle align-items-center p-2 text-danger"
+                >
+                  <i class="bi bi-people"></i>
+                </div>
               </div>
-              <div class="col-10">
-                <p>Expert instruction</p>
+              <div class="col-sm-10 col-md-10 col-lg-10">
+                <p class="fw-bolder">Expert instruction</p>
                 <p>Find the right instructor for you</p>
               </div>
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-sm-12 col-md-3 col-lg-3">
             <div class="d-flex align-items-center">
-              <div class="col-2">
-                <i class="bi bi-clock"></i>
+              <div class="col-sm-1 col-md-2 col-lg-2">
+                <div
+                  class="d-flex justify-content-center bg-rosa-special rounded-circle align-items-center p-2 text-danger"
+                >
+                  <i class="bi bi-clock"></i>
+                </div>
               </div>
-              <div class="col-10">
-                <p>Lifetime access</p>
+              <div class="col-sm-10 col-md-10 col-lg-10">
+                <p class="fw-bolder">Lifetime access</p>
                 <p>Learn on your schedule</p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="container mt-5">
+        <div>
+          <h2 class="mb-4">Recommended to you</h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="card me-4" style="width: 20rem">
+            <img src="./assets/course-graphql.jpg" class="card-img-top" alt="rosa" />
+            <div class="card-body">
+              <div class="border-bottom p-2">
+                <p class="card-text fw-bolder fs-5">GraphQL: introduction to graphQL for beginners</p>
+                <p>
+                  <i class="bi bi-clock me-2"></i>2h 40m
+                  <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i> Advance
+                </p>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-half text-warning"></i>
+                  <i class="bi bi-star text-warning"></i>
+                  <i class="bi bi-star text-warning"></i> 2.5 <span class="text-body-tertiary">(1,500)</span>
+                </p>
+                <p class="fw-bolder">
+                  $ 500 <span class="text-decoration-line-through text-body-tertiary fw-light">$600</span>
+                </p>
+              </div>
+              <div class="d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-5.jpg" alt="donna" width="45px" class="rounded-circle" />
+                <h4 class="fs-6">Brooklyn Simmons</h4>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card me-4" style="width: 20rem">
+            <img src="./assets/course-javascript.jpg" class="card-img-top" alt="giallo " />
+            <div class="card-body">
+              <div class="border-bottom p-2">
+                <p class="card-text fw-bolder fs-5">A Complete Beginner's Guide to JavaScript</p>
+                <p>
+                  <i class="bi bi-clock me-2"></i>4h 10m
+                  <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i> Advance
+                </p>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i> 3.5 <span class="text-body-tertiary">(7,500)</span>
+                </p>
+                <p class="fw-bolder">
+                  $ 700 <span class="text-decoration-line-through text-body-tertiary fw-light">$850</span>
+                </p>
+              </div>
+              <div class="d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-1.jpg" alt="uomo" width="45px" class="rounded-circle" />
+                <h4 class="fs-6">BJenny Wilson</h4>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card me-4" style="width: 20rem">
+            <img src="./assets/course-node.jpg" class="card-img-top" alt="verde " />
+            <div class="card-body">
+              <div class="border-bottom p-2">
+                <p class="card-text fw-bolder fs-5">Beginning Node.js, Express & MongoDB Development</p>
+                <p>
+                  <i class="bi bi-clock me-2"></i>2h 00m
+                  <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i>Intermediate
+                </p>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i> 4.0 <span class="text-body-tertiary">(15,700)</span>
+                </p>
+                <p class="fw-bolder">
+                  $ 800 <span class="text-decoration-line-through text-body-tertiary fw-light">$950</span>
+                </p>
+              </div>
+              <div class="d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-3.jpg" alt="donna" width="45px" class="rounded-circle" />
+                <h4 class="fs-6">Sina Ray</h4>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card me-4" style="width: 20rem">
+            <img src="./assets/course-laravel.jpg" class="card-img-top" alt="red " />
+            <div class="card-body">
+              <div class="border-bottom p-2">
+                <p class="card-text fw-bolder fs-5">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                <p>
+                  <i class="bi bi-clock me-2"></i>1h 00m
+                  <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i>Beginner
+                </p>
+                <p class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i> 4.5 <span class="text-body-tertiary">(2,500)</span>
+                </p>
+                <p class="fw-bolder">
+                  $ 170 <span class="text-decoration-line-through text-body-tertiary fw-light">$220</span>
+                </p>
+              </div>
+              <div class="d-flex align-items-center justify-content-around">
+                <img src="./assets/avatar-7.jpg" alt="donna" width="45px" class="rounded-circle" />
+                <h4 class="fs-6">Sobo Rikhan</h4>
+                <i class="bi bi-bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROVA CAROSELLO
+        <div class="container-fluid">
+         
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card me-4 d-block" style="width: 20rem">
+                  <img src="./assets/course-graphql.jpg" class="card-img-top" alt="rosa" />
+                  <div class="card-body">
+                    <div class="border-bottom p-2">
+                      <p class="card-text fw-bolder fs-5">GraphQL: introduction to graphQL for beginners</p>
+                      <p>
+                        <i class="bi bi-clock me-2"></i>2h 40m
+                        <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i> Advance
+                      </p>
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                        <i class="bi bi-star text-warning"></i>
+                        <i class="bi bi-star text-warning"></i> 2.5 <span class="text-body-tertiary">(1,500)</span>
+                      </p>
+                      <p class="fw-bolder">
+                        $ 500 <span class="text-decoration-line-through text-body-tertiary fw-light">$600</span>
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around">
+                      <img src="./assets/avatar-5.jpg" alt="donna" width="45px" class="rounded-circle" />
+                      <h4 class="fs-6">Brooklyn Simmons</h4>
+                      <i class="bi bi-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="card me-4 d-block" style="width: 20rem">
+                  <img src="./assets/course-javascript.jpg" class="card-img-top" alt="giallo " />
+                  <div class="card-body">
+                    <div class="border-bottom p-2">
+                      <p class="card-text fw-bolder fs-5">A Complete Beginner's Guide to JavaScript</p>
+                      <p>
+                        <i class="bi bi-clock me-2"></i>4h 10m
+                        <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i> Advance
+                      </p>
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i> 3.5 <span class="text-body-tertiary">(7,500)</span>
+                      </p>
+                      <p class="fw-bolder">
+                        $ 700 <span class="text-decoration-line-through text-body-tertiary fw-light">$850</span>
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around">
+                      <img src="./assets/avatar-1.jpg" alt="uomo" width="45px" class="rounded-circle" />
+                      <h4 class="fs-6">BJenny Wilson</h4>
+                      <i class="bi bi-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="card me-4 d-block" style="width: 20rem">
+                  <img src="./assets/course-node.jpg" class="card-img-top" alt="verde " />
+                  <div class="card-body">
+                    <div class="border-bottom p-2">
+                      <p class="card-text fw-bolder fs-5">Beginning Node.js, Express & MongoDB Development</p>
+                      <p>
+                        <i class="bi bi-clock me-2"></i>2h 00m
+                        <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i>Intermediate
+                      </p>
+                      <p class="text-warning active">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i> 4.0 <span class="text-body-tertiary">(15,700)</span>
+                      </p>
+                      <p class="fw-bolder">
+                        $ 800 <span class="text-decoration-line-through text-body-tertiary fw-light">$950</span>
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around">
+                      <img src="./assets/avatar-3.jpg" alt="donna" width="45px" class="rounded-circle" />
+                      <h4 class="fs-6">Sina Ray</h4>
+                      <i class="bi bi-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item active">
+                <div class="card me-4 d-block" style="width: 20rem">
+                  <img src="./assets/course-laravel.jpg" class="card-img-top" alt="red " />
+                  <div class="card-body">
+                    <div class="border-bottom p-2">
+                      <p class="card-text fw-bolder fs-5">Laravel: The Ultimate Beginner's Guide to Learn</p>
+                      <p>
+                        <i class="bi bi-clock me-2"></i>1h 00m
+                        <i class="bi bi-bar-chart-fill me-2 ms-2 text-viola"></i>Beginner
+                      </p>
+                      <p class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i> 4.5 <span class="text-body-tertiary">(2,500)</span>
+                      </p>
+                      <p class="fw-bolder">
+                        $ 170 <span class="text-decoration-line-through text-body-tertiary fw-light">$220</span>
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around">
+                      <img src="./assets/avatar-7.jpg" alt="donna" width="45px" class="rounded-circle" />
+                      <h4 class="fs-6">Sobo Rikhan</h4>
+                      <i class="bi bi-bookmark"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    -->
       </section>
     </main>
   </body>

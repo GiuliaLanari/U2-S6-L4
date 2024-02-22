@@ -19,6 +19,7 @@ $nav-link-color: black;
 $aggiunta-theme-colors: (
   "viola": #7550fe,
   "verde-acqua": #1acb98,
+  "rosa-special": #ffeeda,
 );
 $theme-colors: map-merge($theme-colors, $aggiunta-theme-colors);
 // 5. Include remainder of required parts
