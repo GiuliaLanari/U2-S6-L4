@@ -1,0 +1,19 @@
+@mixin btn1 {
+  color: white;
+  background-color: #1acb98;
+  font-weight: bold;
+}
+
+.bottone1 {
+  @include btn1();
+}
+
+@mixin btn2 {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.bottone2 {
+  @include btn2();
+}
